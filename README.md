@@ -21,8 +21,8 @@ Ce projet est un générateur de mot de passe moderne, responsive et accessible,
 
 ## 🚀 Déploiement
 
- # Déployé facilement avec **GitHub Pages** :  
- # 👉 https://khora-san.github.io/password_generator/
+  Déployé facilement avec **GitHub Pages** :  
+  👉 https://khora-san.github.io/password_generator/
 
 ## 📁 Structure des fichiers
 ├── index.html # Structure HTML  
