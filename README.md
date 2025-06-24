@@ -30,3 +30,11 @@ Ce projet est un générateur de mot de passe moderne, responsive et accessible,
 ├── script.js # Fonctionnalités JavaScript + évaluation zxcvbn  
 └── README.md # Ce fichier
 
+🧠 Crédit
+
+Évaluation de sécurité fournie par :
+🔗 zxcvbn – par Dropbox
+📜 Licence
+
+Ce projet est open-source sous licence MIT.
+Tu peux l'utiliser, le modifier et le partager librement.
