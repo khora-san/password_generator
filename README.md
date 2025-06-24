@@ -25,8 +25,8 @@ Ce projet est un générateur de mot de passe moderne, responsive et accessible,
  #👉 [`https://ton-utilisateur.github.io/nom-du-repo/`](https://ton-utilisateur.github.io/nom-du-repo/) *(à modifier selon ton cas)* -->
 
 ## 📁 Structure des fichiers
-├── index.html # Structure HTML
-├── style.css # Styles CSS personnalisés
-├── script.js # Fonctionnalités JavaScript + évaluation zxcvbn
+├── index.html # Structure HTML  
+├── style.css # Styles CSS personnalisés  
+├── script.js # Fonctionnalités JavaScript + évaluation zxcvbn  
 └── README.md # Ce fichier
 
