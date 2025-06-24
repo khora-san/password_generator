@@ -17,12 +17,16 @@ Ce projet est un générateur de mot de passe moderne, responsive et accessible,
 
 ## 📸 Aperçu
 
-![Screenshot du générateur](screenshot.png) <!-- tu peux ajouter une capture d’écran si tu le souhaites -->
+[//]: # ![Screenshot du générateur](screenshot.png) <!-- tu peux ajouter une capture d’écran si tu le souhaites -->
 
 ## 🚀 Déploiement
 
-Déployé facilement avec **GitHub Pages** :  
-👉 [`https://ton-utilisateur.github.io/nom-du-repo/`](https://ton-utilisateur.github.io/nom-du-repo/) *(à modifier selon ton cas)*
+[//]: #Déployé facilement avec **GitHub Pages** :  
+[//]: #👉 [`https://ton-utilisateur.github.io/nom-du-repo/`](https://ton-utilisateur.github.io/nom-du-repo/) *(à modifier selon ton cas)*
 
 ## 📁 Structure des fichiers
+├── index.html # Structure HTML
+├── style.css # Styles CSS personnalisés
+├── script.js # Fonctionnalités JavaScript + évaluation zxcvbn
+└── README.md # Ce fichier
 
