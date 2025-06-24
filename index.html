@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Générateur (et testeur) de mot de passe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <h1>Générateur (et testeur) de mot de passe</h1>
+
+        <section>
+            <label for="length">Longueur :</label>
+            <input id="length" type="range" min="6" max="32" value="12" aria-label="Longueur du mot de passe" />
+            <span id="lengthValue">12</span>
+        </section>
+
+        <section>
+            <label><input type="checkbox" id="uppercase" checked /> Majuscules</label>
+            <label><input type="checkbox" id="lowercase" checked /> Minuscules</label>
+            <label><input type="checkbox" id="numbers" checked /> Nombres</label>
+            <label><input type="checkbox" id="symbols" /> Symboles</label>
+        </section>
+
+        <section> <!-- section pour rentrer son propre mot de passe à tester-->
+            <label for="custom-password">Tester un mot de passe :</label>
+            <input type="text" id="custom-password" placeholder="Tapez votre mot de passe ici"
+                aria-label="Champ pour tester un mot de passe" />
+        </section>
+
+
+        <button id="generate">Générer</button>
+
+        <output id="password" aria-live="polite">Votre mot de passe ici</output>
+
+
+        <div id="strength-wrapper" aria-live="polite"> <!-- barre d'indication de la force du mdp -->
+            <div id="strength-details">
+                <span id="strength-icon" aria-hidden="true">⚠️</span>
+                <span id="strength-label">Force :</span>
+                <span id="strength-score">---</span>
+            </div>
+            <div id="strength-bar-container">
+                <div id="strength-bar"></div>
+            </div>
+            <p id="strength-feedback" role="status"></p>
+        </div>
+
+
+
+        <button id="copy">Copier</button>
+
+        <button id="toggle-theme" aria-label="Changer le thème (clair/sombre)">🌙</button>
+    </main>
+    <!-- appel de la librairie zxcvbn via CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/zxcvbn@4.4.2/dist/zxcvbn.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
